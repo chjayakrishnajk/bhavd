@@ -1,4 +1,22 @@
-        var x = 0;
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCBwdcI8Qf_ZTqYmyAfNxkTVGCWAwUOw_o",
+    authDomain: "bhavd-b8472.firebaseapp.com",
+    projectId: "bhavd-b8472",
+    storageBucket: "bhavd-b8472.appspot.com",
+    messagingSenderId: "226235318046",
+    appId: "1:226235318046:web:788de92709cbdef496d30f"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+
+var x = 0;
         var gif_asking = document.getElementById("gif_asking");
         function nextYesPage() {
             // Replace the current page content with the content of the new page
